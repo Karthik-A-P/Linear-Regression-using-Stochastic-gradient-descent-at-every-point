@@ -1,3 +1,6 @@
+import pandas as pd
+import numpy as np
+
 def lin_reg(df,epochs,target,lr = 0.001):
   w_s = len(df.columns)
   w = np.random.rand(w_s)
